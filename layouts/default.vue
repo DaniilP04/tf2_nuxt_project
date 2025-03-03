@@ -6,17 +6,17 @@
         <div class="basis-1/4 ma-sm:basis-auto"></div>
         <nav :class="{'basis-1/2 flex flex-row items-center justify-end px-4 gap-4':!burger || burger,  
         'max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-full max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-rose-400 max-sm::px-0':burger, 'max-sm:hidden': !burger}">
-            <NuxtLink to="/" class = "headbtn max-sm:w-20 max-sm:border-b-2 max-sm:text-center">Home</NuxtLink>
-            <div class = "my-auto p-2 rounded-2xl border-2 max-sm:w-20 max-sm:border-b-2 max-sm:text-center" @click = "switch_submenu">Labs
+            <NuxtLink to="/" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">Home</NuxtLink>
+            <div class = "my-auto p-2 rounded-2xl border-2 max-sm:w-full max-sm:border-b-2 max-sm:text-center" @click = "switch_submenu">Labs
                 <div class ="flex flex-col absolute top-full bg-rose-450 text-white w-56 text-center max-sm:relative max-sm:w-full max-sm:bg-rose-450" v-show = "submenu">
-                    <NuxtLink to="/Lab3" class = "headbtn max-sm:w-100 max-sm:border-b-2 max-sm:text-center">Lab3</NuxtLink>
+                    <NuxtLink to="/Lab3" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">Lab3</NuxtLink>
                     <NuxtLink to="/Lab4" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">Lab4</NuxtLink>
                     <NuxtLink to="/Lab5" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">Lab5</NuxtLink>
                     <NuxtLink to="/Lab6" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">Lab6</NuxtLink>
                 </div>
             </div>
-            <NuxtLink to="/login" class = "headbtn max-sm:w-20 max-sm:border-b-2 max-sm:text-center">LogIn</NuxtLink>
-            <NuxtLink to="/logout" class = "headbtn max-sm:w-20 max-sm:border-b-2 max-sm:text-center">LogOut</NuxtLink>
+            <NuxtLink to="/login" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">LogIn</NuxtLink>
+            <NuxtLink to="/logout" class = "headbtn max-sm:w-full max-sm:border-b-2 max-sm:text-center">LogOut</NuxtLink>
         </nav>
         <div v-if="!burger" @click = "switch_burger" class = "max-sm:flex max-sm:flex-col max-sm:mr-8 max-sm:mt-4 max-sm:justify-between max-sm:items-center max-sm:w-8 max-sm:h-6">
             <span class = "h-[3px] w-full bg-black"></span>
