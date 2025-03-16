@@ -1,6 +1,6 @@
 <template>
     <main class="flex-col flex-grow">
-      <div class="flex flex-row items-center w-full text-center justify-between">
+      <div class="flex flex-row items-center w-full text-center justify-between  max-sm:grid max-sm:grid-rows-2 max-sm:grid-cols-5">
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Scout" v-model="selectedpic">
           <img :src="scout.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
          :class="{'border-blue-500': selectedpic === 'Scout'}">Scout</label>
