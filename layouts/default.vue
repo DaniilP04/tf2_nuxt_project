@@ -7,7 +7,7 @@
         <nav :class="{'basis-1/2 flex flex-row items-center justify-end px-4 gap-4':!burger || burger,  
         'max-sm:basis-auto max-sm:absolute max-sm:top-full max-sm:w-screen max-sm:justify-center max-sm:flex-col max-sm:gap-0 max-sm:bg-rose-400 max-sm::px-0':burger, 'max-sm:hidden': !burger}">
             <NuxtLink to="/" class = "headbtn max-sm:w-screen max-sm:border-b-2 max-sm:text-center">Home</NuxtLink>
-            <div class = "my-auto p-2 rounded-2xl border-2 max-sm:px-0 max-sm:w-screen max-sm:border-0 max-sm:text-center" @click = "switch_submenu">Labs
+            <div class = "my-auto p-2 pr-3 rounded-2xl border-2 max-sm:px-0 max-sm:w-screen max-sm:border-0 max-sm:text-center" @click = "switch_submenu">Labs
                 <div class ="flex flex-col absolute top-full bg-rose-450 text-white w-56 text-center max-sm:relative max-sm:w-screen max-sm:bg-rose-450" v-show = "submenu">
                     <NuxtLink to="/Lab3" class = "headbtn max-sm:w-screen max-sm:border-b-2 max-sm:text-center">Lab3</NuxtLink>
                     <NuxtLink to="/Lab4" class = "headbtn max-sm:w-screen max-sm:border-b-2 max-sm:text-center">Lab4</NuxtLink>
