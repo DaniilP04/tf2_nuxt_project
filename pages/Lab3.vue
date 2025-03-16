@@ -195,7 +195,7 @@ onUnmounted(() => {
   }
   
   .blockcap img {
-    @apply w-auto h-[75vh] object-contain;
+    @apply w-auto h-[75vh] max-sm:h-[55vh] object-contain;
   }
     .blockfor {
       @apply flex flex-col gap-2 border-blue-500 border bg-blue-300 w-72 h-auto items-center 
