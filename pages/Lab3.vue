@@ -2,32 +2,32 @@
     <main class="flex-col flex-grow">
       <div class="flex flex-row items-center w-full text-center justify-between  max-sm:grid max-sm:grid-rows-2 max-sm:grid-cols-5">
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Scout" v-model="selectedpic">
-          <img :src="scout.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-         :class="{'border-blue-500': selectedpic === 'Scout'}">Scout</label>
+          <img :src="scout.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+         :class="{'border-rose-500': selectedpic === 'Scout'}">Scout</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Soldier" v-model="selectedpic">
-          <img :src="soldier.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Soldier'}">Soldier</label>
+          <img :src="soldier.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Soldier'}">Soldier</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Pyro" v-model="selectedpic">
-          <img :src="pyro.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Pyro'}">Pyro</label>
+          <img :src="pyro.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Pyro'}">Pyro</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Demoman" v-model="selectedpic">
-          <img :src="demoman.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Demoman'}">Demoman</label>
+          <img :src="demoman.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Demoman'}">Demoman</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Heavy" v-model="selectedpic">
-          <img :src="heavy.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Heavy'}">Heavy</label>
+          <img :src="heavy.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Heavy'}">Heavy</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Engineer" v-model="selectedpic">
-          <img :src="engineer.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Engineer'}">Engineer</label>
+          <img :src="engineer.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Engineer'}">Engineer</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Medic" v-model="selectedpic">
-          <img :src="medic.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Medic'}">Medic</label>
+          <img :src="medic.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Medic'}">Medic</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Sniper" v-model="selectedpic">
-          <img :src="sniper.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Sniper'}">Sniper</label>
+          <img :src="sniper.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Sniper'}">Sniper</label>
         <label><input @click="playmusic" class = "hidden mx-2" type="radio" value="Spy" v-model="selectedpic">
-          <img :src="spy.image" class="w-20 h-20 border-2 border-transparent hover:border-gray-400" 
-          :class="{'border-blue-500': selectedpic === 'Spy'}">Spy</label>
+          <img :src="spy.image" class="w-20 h-20 border-2 rounded-[100px] hover:border-rose-400" 
+          :class="{'border-rose-500': selectedpic === 'Spy'}">Spy</label>
   
       </div>
       <div class="flex justify-center items-center flex-grow">
