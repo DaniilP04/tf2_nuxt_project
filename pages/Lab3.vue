@@ -156,18 +156,6 @@ import { errorMessages } from 'vue/compiler-sfc'
     gif: spygif
   });
   
-  const tf2Characters = reactive<tf2classes[]>([
-    { name: "Demoman", image: demomanimg, gif: demomangif },
-    { name: "Engineer", image: engineerimg, gif: engineergif },
-    { name: "Heavy", image: heavyimg, gif: heavygif },
-    { name: "Medic", image: medicimg, gif: medicgif },
-    { name: "Pyro", image: pyroimg, gif: pyrogif },
-    { name: "Scout", image: scoutimg, gif: scoutgif },
-    { name: "Sniper", image: sniperimg, gif: snipergif },
-    { name: "Soldier", image: soldierimg, gif: soldiergif },
-    { name: "Spy", image: spyimg, gif: spygif }
-  ]);
-  
   
   const selectedpic = ref<string>('')
     const audio_player = ref<HTMLAudioElement | null>(null);
@@ -197,9 +185,5 @@ onUnmounted(() => {
   .blockcap img {
     @apply w-auto h-[75vh] max-sm:h-[55vh] object-contain;
   }
-    .blockfor {
-      @apply flex flex-col gap-2 border-blue-500 border bg-blue-300 w-72 h-auto items-center 
-             hover:border-yellow-500 hover:border-4 hover:bg-yellow-300 rounded-xl;
-    }
-  
+
   </style>
